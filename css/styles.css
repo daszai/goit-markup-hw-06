@@ -668,6 +668,18 @@ ol {
   border: inherit;
   border: 1px solid rgba(33, 33, 33, 0.2);
 }
+
+.imput10 {
+  display: block;
+
+  width: 448px;
+  height: 40px;
+  border-radius: 4px;
+
+  border: inherit;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
 .form1 {
   position: absolute;
   top: 14px;
@@ -741,9 +753,25 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fix1 {
-  top: 8px;
-  left: 3px;
+  top: 4px;
+  left: 1px;
   fill: white;
+  background-color: #2196f3;
+  z-index: 1;
 }
-.fix1:active + input.imput1 {
+
+.hid2:checked {
+  visibility: hidden;
+}
+
+.hid2 {
+  border: #2196f3 solid 1px;
+  background-color: white;
+  z-index: 2;
+}
+
+.hidden1 {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
